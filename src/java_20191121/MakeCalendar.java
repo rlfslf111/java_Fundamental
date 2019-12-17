@@ -16,7 +16,8 @@ public class MakeCalendar {
 		cal.set(Calendar.MONTH, month);
 
 		
-		System.out.println("----------["+year+"년"+month+"월]----------");
+		 
+		System.out.println("---------["+year+"년"+month+"월]----------");
 		System.out.println("   일      월      화      수      목      금      토    ");
 		cal.set(year, month-1,1);
 		
@@ -38,6 +39,7 @@ public class MakeCalendar {
 			}
 			dayOfWeek++;
 		}
-		System.out.println("--------------------------");
+		System.out.println();
+		System.out.println("-----------------------------");
 	}
 }

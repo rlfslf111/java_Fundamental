@@ -40,6 +40,18 @@ public class Homework1 {
 		System.out.println(ch2);
 		
 		
+		
+		String input1 = "abcd";//"abcde"
+		char[] ch1 = input.toCharArray();
+		
+		for(int i=0;i<ch1.length/2;i++){
+			char temp = ch1[i];
+			ch1[i] = ch1[ch1.length-1-i];
+			ch1[ch.length-1-i] = temp;
+		}
+		System.out.println(new String(ch1));
+		
+		
 		//1-100까지 소수를 구하시오
 		int count=0;
 		for(int i=2; i<=100; i++){

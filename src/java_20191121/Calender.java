@@ -17,7 +17,6 @@ public class Calender {
 		month=scan.nextInt();
 		System.out.print("일:");
 		day=scan.nextInt();
-		String message = null;
 		int[] monthArray={31,28,31,30,31,30,31,31,30,31,30,31};
 
 		String[] weekNames={"일","월","화","수","목","금","토"};
@@ -33,6 +32,7 @@ public class Calender {
 		}
 		illsu+=day;
 		yoil=illsu%7;
+		String message = null;
 		message=weekNames[yoil];
 		System.out.printf("%d년 %d월 %d일은 %s요일입니다.",year,month,day,message);
 	}

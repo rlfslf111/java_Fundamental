@@ -25,5 +25,7 @@ public class StaticDemo {
 	public static void m4(){
 		System.out.println("static method m4()");
 	}
-	
+	public static void main(String[] args) {
+		m3();
+	}
 }

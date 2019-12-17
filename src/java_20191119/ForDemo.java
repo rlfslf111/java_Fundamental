@@ -1,4 +1,4 @@
-﻿package java_20191119;
+package java_20191119;
 
 public class ForDemo {
 	public static void main(String[] args){
@@ -65,8 +65,6 @@ public class ForDemo {
 			System.out.println();
 		}
 		
-		//나도 수정했어
-		//뚫린 다이아몬드 만들기
-		//ddd
+	
 	}
 }
